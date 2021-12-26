@@ -1,7 +1,6 @@
 import aws_cdk as cdk
 from constructs import Construct
 
-from my_pipeline.my_pipeline_lambda_stack import MyLambdaStack
 from my_aws_app.my_aws_app_stack import MyAwsAppStack
 
 

@@ -10,7 +10,7 @@ app = cdk.App()
 
 env = cdk.Environment(
     account=os.environ['CDK_DEFAULT_ACCOUNT'],
-    region='asia-east1'
+    region='ap-southeast-1'
 )
 
 MyPipelineStack(app, "MyPipelineStack", env=env)
